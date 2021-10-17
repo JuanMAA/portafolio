@@ -1,0 +1,28 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "portafolio JM",
+  "main": "index.php",
+  "dependencies": {
+    "jquery-animated-headlines": "^1.0.0",
+    "jquery-inview": "^1.1.2",
+    "modernizr": "^3.11.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanMAA/portafolio.git"
+  },
+  "keywords": [
+    "jm"
+  ],
+  "author": "JuanMansillaAsenjo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuanMAA/portafolio/issues"
+  },
+  "homepage": "https://github.com/JuanMAA/portafolio#readme"
+}
