@@ -1,4 +1,4 @@
-<section id="service" class="section_padding pb_70">
+<section id="experiencia" class="section_padding pb_70">
     <div class="container">
         <div class="col-md-12 col-sm-12-col-xs-12">
             <div class="section_heading text-center">
@@ -17,20 +17,22 @@
                             <strong>2020</strong>
                             <h5>Talento Digital para Chile</h5>
                             <p>
-                                Asistente de alumnos y apoyo a docente del Curso Desarrollo De Aplicaciones Full Stack Java Trainee (Modalidad Bootcamp).
+                                Asistente de alumnos y apoyo a docente del Curso Desarrollo De Aplicaciones Full Stack Java Trainee (Modalidad Bootcamp).<br/>
+                                <a type="button" href="https://talentodigitalparachile.cl/" target="_blank" class="btn btn-default main_sm_btn">Visitar Sitio Web</a>
                             </p>
                         </li>
                         <li>
                             <strong>2019 - 2021</strong>
                             <h5>Opciones S. A. Sistemas de Información</h5>
                             <div>
-                                <ol>
+                                <ul>
                                     <li>Desarrollo de módulos para <i>ERP Apache OFBiz</i>.</li>
                                     <li>Programación DSL <i>Groovy</i>.</li>
                                     <li>Programación Web <i>(JavaScript, Vue.js, CSS, Apache FreeMarker, Bootstrap)</i>.</li>
                                     <li>Herramientas de versionamiento. <i>(Bitbucket)</i>.</li>
                                     <li>Desarrollo y gestión de sistemas de base de datos SQL.</li>
-                                </ol>
+                                </ul>
+                                <a type="button" href="https://www.opciones.cl/" target="_blank" class="btn btn-default main_sm_btn">Visitar Sitio Web</a>
                             </div>
                         </li>
                         <li>

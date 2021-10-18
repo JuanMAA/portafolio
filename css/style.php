@@ -1,27 +1,4 @@
 
-<?php 
-
-  $random_number = rand(1,3);
-  $primary_color = null;
-  $rgb_color = null;
-
-  switch ($random_number) {
-    case 1:
-        $primary_color = '#173e8b';
-        $rgb_color = '90deg, rgba(12,139,247,0.60) 0%, rgba(12,74,237,0.60) 35%, rgba(0,178,224,0.15) 100%';
-        break;
-    case 2:
-        $primary_color = '#30a360'; 
-        $rgb_color = '90deg, rgba(100,185,38,0.60) 0%, rgba(61,168,80,0.60) 35%, rgba(48,163,96,0.15) 100%'; 
-        break;
-    case 3:
-        $primary_color = '#FA7E5F'; 
-        $rgb_color = '90deg, rgba(247,71,12,0.60) 0%, rgba(240,122,46,0.60) 35%, rgba(247,71,12,0.15) 100%'; 
-        break;
-  }
-
-?>
-
 <style>
 
 * {
@@ -30,7 +7,6 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   outline: none;
-  list-style: none;
   word-wrap: break-word;
 }
 .profile-badge--light {
@@ -79,8 +55,7 @@ img {
   height: auto;
 }
 ul {
-  padding: 0;
-  list-style: none;
+  padding-left: 25px;
 }
 p {
   margin: 0;
@@ -217,12 +192,13 @@ a:hover {
 .section_heading .sm_border {
   display: block;
   height: 1px;
-  width: 300px;
+  width: 500px;
   margin-bottom: 15px;
   bottom: -15px;
   position: relative;
   left: 50%;
-  background-color: <?php echo $primary_color ?>;
+  background: <?php echo $primary_color ?>;
+  background: linear-gradient(90deg, rgba(185,38,38,0) 0%, <?php echo $primary_color ?> 50%, rgba(163,48,48,0) 100%);
   -webkit-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
@@ -234,7 +210,21 @@ a:hover {
   position: relative;
   margin-bottom: 30px;
   left: 50%;
-  background-color: <?php echo $primary_color ?>;
+  background: <?php echo $primary_color ?>;
+  background: linear-gradient(90deg, rgba(185,38,38,0) 0%, <?php echo $primary_color ?> 50%, rgba(163,48,48,0) 100%);
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+.cst_border_sm {
+  display: block;
+  height: 1px;
+  width: 400px;
+  position: relative;
+  margin-bottom: 30px;
+  left: 50%;
+  background: <?php echo $primary_color ?>;
+  background: linear-gradient(90deg, rgba(185,38,38,0) 0%, <?php echo $primary_color ?> 50%, rgba(163,48,48,0) 100%);
   -webkit-transform: translate(-50%, 0);
   -ms-transform: translate(-50%, 0);
   transform: translate(-50%, 0);
@@ -289,17 +279,23 @@ a:hover {
 }
 .main_btn_curr {
   color: #fff;
-  font-size: 14px;
+  font-size: 15px;
   text-transform: capitalize;
-  padding: 13px 20px;
+  padding: 15px 55px;
   letter-spacing: 0.6px;
   font-weight: 600;
-  background: <?php echo $primary_color ?>;
+  box-shadow: inset 0 0 0 1px <?php echo $primary_color ?> !important;
+    color: <?php echo $primary_color ?> !important;
   /* BGBOTONES */
   line-height: 10px;
   border: none;
+  border-radius: 25px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out 0s;
+}
+.main_btn_curr:hover{
+  background: white;
+  color: #fff;
 }
 .main_sm_btn {
   color: #fff;
@@ -316,6 +312,9 @@ a:hover {
   border-radius: 5px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out 0s;
+}
+.main_sm_btn:visited{
+  color: white;
 }
 .main_btn:focus,
 .main_btn:hover {
@@ -361,7 +360,7 @@ a:hover {
   background-color: <?php echo $primary_color ?> !important;
 }
 .navbar-center {
-  display: flex !important;
+  display: flex;
   justify-content: center !important;
   align-items: center !important;
 }
@@ -387,7 +386,7 @@ a:hover {
   display: none;
 }
 .navbar-default.menu-shrink {
-  background-color: #fff;
+  background-color: white;
   box-shadow: -1px 1px 1px rgba(20, 97, 255, 0.1);
   width: 100%;
   animation: fadeInDown 1s both 0.2s;
@@ -453,7 +452,7 @@ a:hover {
   top: 0;
 }
 .banner_content {
-  margin-top: 185px;
+  margin-top: 175px;
 }
 .banner_content strong {
   color: <?php echo $primary_color ?>;
@@ -766,7 +765,6 @@ a:hover {
 -----------------------------------------------------------------*/
 .work_filter ul {
   padding: 0;
-  list-style: none;
   margin-bottom: 30px;
 }
 .work_filter ul li {
@@ -900,7 +898,6 @@ a:hover {
   position: relative;
   display: block;
   margin: 0 50px;
-  list-style: none;
 }
 .edu-list > li {
   position: relative;
@@ -925,7 +922,7 @@ a:hover {
   background: <?php echo $primary_color ?>;
 }
 .edu-list > li::after {
-  content: "\e032";
+  content: '🏠';
   position: absolute;
   top: 0;
   left: -50px;

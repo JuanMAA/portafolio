@@ -6,8 +6,8 @@
 				<li><a href="#inicio">Inicio</a></li>
 				<li><a href="#about">Acerca de mí</a></li>
 				<li><a href="#education">Desarrollo Personal</a></li>
-				<li><a href="#portfolio">Portafolio</a></li>
-				<li><a href="#contact">Contacto</a></li>
+				<li><a href="#experiencia">Experiencia</a></li>
+				<li><a href="#contacto">Contacto</a></li>
 			</ul>
 		</div>
 	</div>

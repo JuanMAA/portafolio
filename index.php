@@ -1,6 +1,29 @@
 <!doctype html>
 <html lang="zxx">
 
+<?php 
+
+  $random_number = rand(1,3);
+  $primary_color = null;
+  $rgb_color = null;
+
+  switch ($random_number) {
+    case 1:
+        $primary_color = '#173e8b';
+        $rgb_color = '90deg, rgba(12,139,247,0.60) 0%, rgba(12,74,237,0.60) 35%, rgba(0,178,224,0.15) 100%';
+        break;
+    case 2:
+        $primary_color = '#30a360'; 
+        $rgb_color = '90deg, rgba(100,185,38,0.60) 0%, rgba(61,168,80,0.60) 35%, rgba(48,163,96,0.15) 100%'; 
+        break;
+    case 3:
+        $primary_color = '#FA7E5F'; 
+        $rgb_color = '90deg, rgba(247,71,12,0.60) 0%, rgba(240,122,46,0.60) 35%, rgba(247,71,12,0.15) 100%'; 
+        break;
+  }
+
+?>
+
 <head>
 	<!-- META -->
 	<meta charset="utf-8">
@@ -16,6 +39,7 @@
 	<link href="css/plugins.css" rel="stylesheet" />
 	<link href="css/lightbox.min.css" rel="stylesheet" />
 	<link href="css/responsive.css" rel="stylesheet" />
+	<?php include 'css/responsive.php'; ?>
 	<?php include 'css/style.php'; ?>
 </head>
 

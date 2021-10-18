@@ -18,7 +18,6 @@
                             <h5>Programación y Análisis de Sistemas</h5>
                             <p>Instituto Profesional AIEP.<br />
                                 <a type="button" class="btn btn-default main_sm_btn">Ver Certificado</a>
-
                             </p>
                         </li>
                         <li>

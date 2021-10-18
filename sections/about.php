@@ -10,11 +10,15 @@
                     <div class="about_content_area">
                         <div class="text-center">
                             <h3>Desarrollador con <b>2 años de experiencia.</b> </h3>
-                            <div class="cst_border"></div>
                         </div>
-                        FullStack developer con amplio conocimiento y años de experiencia trabajando con tecnologías Frontend y Backend, procurando siempre el desarrollo de software de calidad.
-                        Debido a que la tecnología avanza tan rápido, me mantengo constantemente aprendiendo y repasando contenidos relacionados a lo que hago.<br />
-                        <a type="button" class="btn btn-default main_btn_curr" data-toggle="modal" data-target="#exampleModalCenter">Descargar Curriculum</a>
+                        <div class="cst_border_sm"></div>
+                        <div>
+                            FullStack developer con amplio conocimiento y años de experiencia trabajando con tecnologías Frontend y Backend, procurando siempre el desarrollo de software de calidad.
+                            Debido a que la tecnología avanza tan rápido, me mantengo constantemente aprendiendo y repasando contenidos relacionados a lo que hago.<br /><br />
+                        </div>
+                        <div class="text-center">
+                            <a type="button" class="btn btn-default main_btn_curr" data-toggle="modal" data-target="#exampleModalCenter">Ver / Descargar Curriculum</a>
+                        </div>
                     </div>
                 </div>
             </div>

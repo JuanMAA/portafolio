@@ -1,4 +1,4 @@
-<section id="contact" class="section_padding">
+<section id="contacto" class="gray_bg section_padding">
     <div class="container">
         <div class="col-md-12 col-sm-12-col-xs-12">
             <div class="section_heading text-center">
@@ -24,7 +24,7 @@
                             <div class="form-group col-sm-12 mab-none">
                                 <textarea rows="8" name="message" class="form-control" id="description" placeholder="Escribe tu mensaje aqui ..." required="required"></textarea>
                             </div>
-                            <div class="form-group mb0 col-sm-12">
+                            <div class="form-group mb0 col-sm-6">
                                 <div class="actions">
                                     <button type="submit" value="Send message" name="submit" id="submitButton" class="btn btn-lg main_btn btn_shadow" title="Submit Your Message!">Enviar
                                         Mensaje</button>
