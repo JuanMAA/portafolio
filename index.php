@@ -50,6 +50,8 @@
 	include 'preloader.php';
 	// Modales
 	include 'curriculum.php';
+	include 'alumno.php';
+	include 'titulo.php';
 	// Navbar
 	include 'navbar.php';
 	// Body

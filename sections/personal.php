@@ -26,11 +26,11 @@
                             <h5>Opciones S. A. Sistemas de Información</h5>
                             <div>
                                 <ul>
-                                    <li>Desarrollo de módulos para <i>ERP Apache OFBiz</i>.</li>
-                                    <li>Programación DSL <i>Groovy</i>.</li>
-                                    <li>Programación Web <i>(JavaScript, Vue.js, CSS, Apache FreeMarker, Bootstrap)</i>.</li>
-                                    <li>Herramientas de versionamiento. <i>(Bitbucket)</i>.</li>
-                                    <li>Desarrollo y gestión de sistemas de base de datos SQL.</li>
+                                    <li>- Desarrollo de módulos para <i>ERP Apache OFBiz</i>.</li>
+                                    <li>- Programación DSL <i>Groovy</i>.</li>
+                                    <li>- Programación Web <i>(JavaScript, Vue.js, CSS, Apache FreeMarker, Bootstrap)</i>.</li>
+                                    <li>- Herramientas de versionamiento. <i>(Bitbucket)</i>.</li>
+                                    <li>- Desarrollo y gestión de sistemas de base de datos SQL.</li>
                                 </ul>
                                 <a type="button" href="https://www.opciones.cl/" target="_blank" class="btn btn-default main_sm_btn">Visitar Sitio Web</a>
                             </div>
@@ -40,10 +40,10 @@
                             <h5>Transportes Tecnologia y Giros EGT Limitada </h5>
                             <p>
                             <ul>
-                                <li>Programación Web <i>(JavaScript, Vue.js, CSS, Apache FreeMarker, Bootstrap)</i>.</li>
-                                <li>Preprocesadores CSS <i>(Less y Sass)</i>.</li>
-                                <li>Ejecución y consumo de microservicios <i>(Spring Boot y Nest.Js)</i>.</li>
-                                <li>Herramientas de versionamiento. <i>(GitLab)</i>.</li>
+                                <li>- Programación Web <i>(JavaScript, Vue.js, CSS, Apache FreeMarker, Bootstrap)</i>.</li>
+                                <li>- Preprocesadores CSS <i>(Less y Sass)</i>.</li>
+                                <li>- Ejecución y consumo de microservicios <i>(Spring Boot y Nest.Js)</i>.</li>
+                                <li>- Herramientas de versionamiento. <i>(GitLab)</i>.</li>
                             </ul>
                             </p>
                         </li>

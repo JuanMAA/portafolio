@@ -12,19 +12,19 @@
         <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="education-container wow fadeInUp">
-                    <ul class="edu-list">
+                    <ul class="edu-list experience">
                         <li>
                             <strong>2017 - 2020</strong>
                             <h5>Programación y Análisis de Sistemas</h5>
                             <p>Instituto Profesional AIEP.<br />
-                                <a type="button" class="btn btn-default main_sm_btn">Ver Certificado</a>
+                                <a type="button" class="btn btn-default main_sm_btn" data-toggle="modal" data-target="#titulo-modal">Ver Certificado</a>
                             </p>
                         </li>
                         <li>
                             <strong>2021 - 2022</strong>
                             <h5>Ingeniería de Ejecución en Informática Mención Desarrollo de Sistemas</h5>
                             <p>Instituto Profesional AIEP.<br />
-                                <a type="button" class="btn btn-default main_sm_btn">Ver Certificado</a>
+                                <a type="button" class="btn btn-default main_sm_btn" data-toggle="modal" data-target="#alumno-modal">Ver Certificado</a>
                             </p>
                         </li>
                     </ul>

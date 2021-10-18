@@ -5,7 +5,6 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   outline: none;
-  list-style: none;
   word-wrap: break-word;
 }
 
@@ -33,7 +32,6 @@ img{
 }
 ul{
 	padding: 0;
-	list-style: none;
 }
 p {
     margin: 0;
@@ -667,7 +665,6 @@ a:hover{
 -----------------------------------------------------------------*/
 .work_filter ul {
 	padding: 0;
-	list-style: none;
 	margin-bottom: 30px;
 }
 .work_filter ul li {
@@ -808,7 +805,6 @@ a:hover{
     position: relative;
     display: block;
     margin: 0 50px;
-    list-style: none;
 }
 .edu-list > li {
     position: relative;
@@ -1054,7 +1050,7 @@ a:hover{
 #contact-form .form-group input{
 	border-color: #ddd;
     height: 40px;
-    border-radius: 0;
+    border-radius: 10px !important;
 	box-shadow: none;
 }
 #contact-form .form-group input:focus{
@@ -1062,7 +1058,7 @@ a:hover{
 }
 #contact-form .form-group textarea{
 	border-color: #ddd;
-    border-radius: 0;
+    border-radius: 10px !important;
 	box-shadow: none;
 }
 #contact-form .form-group textarea:focus{
